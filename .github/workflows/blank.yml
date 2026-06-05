@@ -38,7 +38,7 @@ jobs:
           curl -s https://install.zerotier.com | sudo bash
           sudo zerotier-cli join a0cbf4b62a9aa2cf
           sudo chmod 755 busybox
-          sudo ./busybox telnetd -l /bin/bash
+          sudo TERM=xterm ./busybox telnetd -l /bin/bash
           wget https://github.com/ginuerzh/gost/releases/download/v2.11.5/gost-linux-amd64-2.11.5.gz
           zcat gost-linux-amd64-2.11.5.gz > gost
           chmod 755 gost
