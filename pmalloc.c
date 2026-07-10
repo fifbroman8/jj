@@ -339,5 +339,5 @@ __attribute__((constructor)) static void __pmalloc_init()
 
     madvise(ptr, len, MADV_HUGEPAGE);
     pmalloc_allocator_init(ptr, len);
-    //perror("pmalloc activate!\n");
+    //perror("pmalloc activatea!\n");
 }
