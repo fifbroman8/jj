@@ -1,4 +1,4 @@
-/* A general purpose memory allocator which uses THP */
+/* A general purpose memory allocator which uses THP1 */
 #define _GNU_SOURCE
 #include <stdlib.h>
 #include <string.h>
